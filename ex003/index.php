@@ -8,10 +8,18 @@
 <body>
     <h1>Variaveis e constantes</h1>
     <?php 
+        $nome = "Samuel";
+        $sobrenome = "Marques! ";
+        $nome = "Cassio";
+        $sobrenome = "Goes! ";
+        const pais = "Brasil";
         $num1 = 1;
         $num2 =2;
         $soma = $num1 + $num2;
-        echo "$soma"
+        
+        //echo "$soma"; 
+        echo "Boa noite, $nome $sobrenome";
+        echo "Seu país é o(a): ". pais;
     ?>
 </body>
 </html>

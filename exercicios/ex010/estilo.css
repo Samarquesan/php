@@ -1,0 +1,45 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #15142b;
+    background-image: linear-gradient(180deg, #372991, #15142b);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+header, main, section, article {
+    max-width: 90%;
+    width: 100%;
+    background-color: azure;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+label, input.submit {
+    background-color: rgb(4, 167, 167);
+    color: white;
+    display: block;
+    margin: 10px 0;
+}
+
+input.submit {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
